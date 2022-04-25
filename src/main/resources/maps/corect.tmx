@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="26" height="26" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="143">
+ <tileset firstgid="1" name="tileset02" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset02.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="501" source="tileset02.tsx"/>
+ <tileset firstgid="1001" source="tileset01.tsx"/>
+ <layer id="2" name="background" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACr3Wx09UQRzA8cebxa5Hu8ueF2zL3kSK6MINFMhi9AZSLNEYE4p40ogHK/FivFiJJ71Y0YsotsRyMdFETSx/gAWwnPxO3vyy82YfJsSEwyczr8z85vd7MwvDvucNT4EziKMI82OetyAW9B9iBAn0Yw3KsBYVqDSt9O3n5db9KhNDS6EUSWIUmzhv8BZpnEX9f5A4GdTodRCjArV+oMa018wa9Zi6SbLziRtSt4SVY9rUbRNa0TIJOk6TU7eUVTcdZ4fyvJ3IqKBubSafBjROomadTt0ypm6STwXzV6JKBXXrNfm0o8P0u9CNngmutQNO3WS/ST4NzN+IJhW8I/szqwL3zfUDP9yPuufGSZp8BlTuXsLMXY312M91n1XXDZjNmKTHe4WeV0Lbwb1ObDfj3H1QbvIZ/EccaW1FJk6xF8TpU7m+HSfl7LchJ45eb9Z8rzKj2VJq4uymv0eFY9pxMs5+S/vhOHq91Spf1sSRuh2kf8jEke+YVfnfR85pwolz1Q+PszVH1G2ifORMvrbIPLo/SjuGcUP69n2ZW/bHLhXEkXx0K7878s5mldsbcSs3+5toR7l32g/q7J65NrSrcBy7RiLlKI2Ic457V/zgN1Cv3T5zvfoMON/HndMl+er5Rhj3CI+xEIXYqp/T1pq+WBcRR9fgGI7jBE7iFAZQx7v12KjCfZ3PeTPnFh3DiqOfXcBF5/dAxsizS7iMQbQwvhXbVLh/nWc3cBO3cBt3MIS7uOfn5/MET636SM16eK8L3Sq/L2Oe4Tf+4Dle4CVe+fnn9B3e+7m/Oe5+c/dewhrzAXOZbx4+0v+Ez/gSkc9XfIvIJ4qsRcZ8xw+MYgzj+IlfTj5xfaaRUOG9LefC3ffSj5n9Ng3TMQMzMUv/FmGOs9/2FgRnSo+V85U265ZrycF+rvf1IizGEizFMhVe9z4rzmHi9BcE9ZLzJf+HyLXU035eQrscK7ASq7AaKb0uvRYcseJMxf+IfwFqk9hFkAoAAA==
+  </data>
+ </layer>
+ <layer id="5" name="walls" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACrvBzMBwg0r4JhDfAuLbQHwHiO8C8T0keRhA5r9khGCYOCUAnz3o6kbtGbUHOe1iEyMWE7KHGPciA1ieQM4XtLIHXZ4a8UOM/Eiwh5x0RYk7KAHULIdJsYeWdsHAULMHOf8jh9eoPUPLnkdQDALIbGL4xAB620MPDAA4iUOykAoAAA==
+  </data>
+ </layer>
+ <objectgroup id="7" name="actors">
+  <object id="17" name="end door" type="verticaly" x="-1" y="223" width="18" height="32"/>
+  <object id="22" name="ammo" x="16" y="320" width="16" height="16"/>
+  <object id="40" name="ammo" x="256" y="193" width="16" height="16"/>
+  <object id="44" name="first door" type="horizontal" x="193" y="112" width="32" height="16"/>
+  <object id="45" name="second door" type="verticaly" x="144" y="129" width="16" height="30"/>
+  <object id="46" name="third door" type="horizontal" x="96" y="208" width="32" height="16"/>
+  <object id="48" name="energy" x="161" y="192" width="16" height="16"/>
+  <object id="49" name="energy" x="16" y="304" width="16" height="16"/>
+  <object id="52" name="electricity" type="waiting1" x="160" y="127" width="16" height="16"/>
+  <object id="53" name="energy-bullet" type="waiting2" x="97" y="49" width="16" height="16"/>
+  <object id="54" name="energy-bullet" type="waiting2" x="113" y="49" width="16" height="16"/>
+  <object id="55" name="generator" x="80" y="129.5" width="16" height="16"/>
+  <object id="56" name="barrel" x="162.5" y="226.5" width="16" height="16"/>
+  <object id="57" name="hammer" x="359" y="160" width="16" height="16"/>
+  <object id="58" name="mine" x="97" y="305" width="16" height="16"/>
+  <object id="59" name="mine" x="129" y="319" width="16" height="16"/>
+  <object id="60" name="mine" x="145" y="350" width="16" height="16"/>
+  <object id="61" name="trap-system" x="97" y="383" width="16" height="16"/>
+  <object id="62" name="live" x="121" y="339" width="16" height="16"/>
+  <object id="68" name="alien" type="waiting3" x="301" y="196" width="32" height="32"/>
+  <object id="94" name="electricity" type="waiting1" x="160" y="144" width="16" height="16"/>
+  <object id="96" name="electricity" type="waiting1" x="161" y="160" width="16" height="16"/>
+  <object id="98" name="electricity2" type="waiting1" x="14" y="259" width="16" height="16"/>
+  <object id="99" name="electricity2" type="waiting1" x="30.6364" y="258.818" width="16" height="16"/>
+  <object id="100" name="electricity2" type="waiting1" x="47" y="259" width="16" height="16"/>
+  <object id="101" name="electricity2" type="waiting1" x="64" y="259" width="16" height="16"/>
+  <object id="102" name="electricity2" type="waiting1" x="80" y="259" width="16" height="16"/>
+  <object id="103" name="electricity2" type="waiting1" x="96" y="259" width="16" height="16"/>
+  <object id="104" name="electricity2" type="waiting1" x="112" y="259" width="16" height="16"/>
+  <object id="105" name="electricity2" type="waiting1" x="128" y="259" width="16" height="16"/>
+  <object id="106" name="electricity2" type="waiting1" x="145" y="259" width="16" height="16"/>
+  <object id="107" name="electricity2" type="waiting1" x="161" y="259" width="16" height="16"/>
+  <object id="108" name="electricity2" type="waiting1" x="177" y="259" width="16" height="16"/>
+  <object id="109" name="electricity2" type="waiting1" x="193" y="259" width="16" height="16"/>
+  <object id="110" name="electricity2" type="waiting1" x="210" y="259" width="16" height="16"/>
+  <object id="111" name="electricity2" type="waiting1" x="226" y="258" width="16" height="16"/>
+  <object id="112" name="electricity2" type="waiting1" x="273" y="257" width="16" height="16"/>
+  <object id="113" name="electricity2" type="waiting1" x="289" y="256" width="16" height="16"/>
+  <object id="114" name="electricity2" type="waiting1" x="305" y="257" width="16" height="16"/>
+  <object id="115" name="electricity2" type="waiting1" x="321" y="257" width="16" height="16"/>
+  <object id="116" name="electricity2" type="waiting1" x="337" y="257" width="16" height="16"/>
+  <object id="117" name="electricity2" type="waiting1" x="353" y="256" width="16" height="16"/>
+  <object id="118" name="electricity2" type="waiting1" x="370" y="256" width="16" height="16"/>
+  <object id="119" name="electricity2" type="waiting1" x="386" y="256" width="16" height="16"/>
+  <object id="120" name="trap-system-one" x="255" y="144" width="16" height="16"/>
+  <object id="121" name="card" x="17" y="17" width="16" height="16"/>
+  <object id="122" name="mine" x="68" y="313" width="16" height="16"/>
+  <object id="123" name="mine" x="46" y="341" width="16" height="16"/>
+  <object id="124" name="mine" x="176" y="351" width="16" height="16"/>
+  <object id="125" name="mine" x="182" y="305" width="16" height="16"/>
+  <object id="126" name="mine" x="225" y="304" width="16" height="16"/>
+  <object id="127" name="mine" x="30" y="183" width="16" height="16"/>
+  <object id="128" name="mine" x="286" y="223" width="16" height="16"/>
+  <object id="134" name="trap-system-three" x="32" y="17" width="16" height="16"/>
+  <object id="135" name="electricity3" type="waiting1" x="33" y="208" width="16" height="16"/>
+  <object id="136" name="electricity3" type="waiting1" x="16" y="208" width="16" height="16"/>
+  <object id="137" name="ellen" type="ripley" x="345" y="49" width="32" height="32"/>
+  <object id="138" name="mine" x="30" y="133" width="16" height="16"/>
+  <object id="139" name="mine" x="31.5" y="93.5" width="16" height="16"/>
+  <object id="140" name="mine" x="17" y="64" width="16" height="16"/>
+  <object id="141" name="mine" x="15.5" y="93.5" width="16" height="16"/>
+  <object id="142" name="mine" x="16" y="132" width="16" height="16"/>
+ </objectgroup>
+</map>
